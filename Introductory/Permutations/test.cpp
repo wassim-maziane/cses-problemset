@@ -16,10 +16,10 @@ int main() {
   }
   for (long long i = 1; i <= n; i++) {
     if (i % 2 == 0)
-      cout << i;
+      cout << i << " ";
   }
   for (long long i = 1; i <= n; i++) {
     if (i % 2 == 1)
-      cout << i;
+      cout << i << " ";
   }
 }
