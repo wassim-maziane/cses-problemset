@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#include <vector>
 
 using namespace std;
 
@@ -14,16 +13,13 @@ int main() {
   int indicator = 0;
 
   cin >> n;
-  
-  for (int i = 0; i < n - 1; i++)
-  {
+
+  for (int i = 0; i < n - 1; i++) {
     cin >> elt;
     s.insert(elt);
   }
-  for (auto it = s.begin(); it != s.end(); it++)
-  {
-    if (*it != it2)
-    {
+  for (auto it = s.begin(); it != s.end(); it++) {
+    if (*it != it2) {
       cout << it2;
       indicator = 1;
       break;
